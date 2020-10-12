@@ -1,0 +1,129 @@
+/* ****************** HTML ******************** */
+@font-face {
+font-family: 'shrikhand-regular';
+src: url("fonts/shrikhand/shrikhand-regular-webfont.woff2") format('woff2'),
+url("fonts/shrikhand/shrikhand-regular-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'robotocondensed-regular';
+src: url("fonts/roboto/robotocondensed-regular-webfont.woff2") format('woff2'),
+url("fonts/roboto/robotocondensed-regular-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'robotocondensed-light';
+src: url("fonts/roboto/robotocondensed-light-webfont.woff2") format('woff2'),
+url("fonts/roboto/robotocondensed-light-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'robotocondensed-bold';
+src: url("fonts/roboto/robotocondensed-bold-webfont.woff2") format('woff2'),
+url("fonts/roboto/robotocondensed-bold-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'roboto-regular';
+src: url("fonts/roboto/roboto-regular-webfont.woff2") format('woff2'),
+url("fonts/roboto/roboto-regular-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'roboto-medium';
+src: url("fonts/roboto/roboto-medium-webfont.woff2") format('woff2'),
+url("fonts/roboto/roboto-medium-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'roboto-italic';
+src: url("fonts/roboto/roboto-italic-webfont.woff2") format('woff2'),
+url("fonts/roboto/roboto-italic-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+@font-face {
+font-family: 'roboto-bold';
+src: url("fonts/roboto/roboto-bold-webfont.woff2") format('woff2'),
+url("fonts/roboto/roboto-bold-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;}
+
+*{box-sizing: border-box;}
+
+body{
+font-family: "roboto-regular", sans-serif;
+text-align: center;
+margin: auto;}
+
+
+/* ****************** HEADER ******************** */
+.header_title{font-family: "shrikhand-regular", cursive, sans-serif}
+
+.header_map_search{
+background-color: #EEEEEE;
+max-width: 100%;
+height: 4rem;
+border-top: 0.2rem solid #BDBDBD;
+padding-top: 1rem;}
+
+.header_icon_map{margin-right: 1rem;}
+
+
+/* ****************** MAIN-DISCOVERY ******************** */
+.main_discovery{
+background-color: #F5F5F5;
+height: 20rem;
+padding-top: 1rem;}
+
+.main_explore{margin-bottom: 3rem;}
+
+.main_explore_btn{
+color: white;
+border-radius: 2rem;
+text-decoration: none;
+padding: 1.1rem 2rem;
+background: linear-gradient(#FF79DA,#9356DC);}
+
+
+/* ****************** MAIN-OPERATION ******************** */
+.section.main_operation {
+padding-bottom: 5rem;}
+
+.main_operation_title{
+text-align: left;
+margin-left: 1rem;}
+
+.main_operation_bubble {
+display: flex;
+gap: 1.5rem;
+background-color: #F5F5F5;
+margin-left: 1rem;
+margin-bottom: 2rem;
+align-items: baseline;
+border: .1rem solid;
+border-radius: 1.2rem;
+margin-right: 0.5rem;
+cursor: pointer;}
+
+.main_operation_bubble_number{
+background-color: #9356DC;
+border-radius: 100%;
+color: white;
+min-height: 2rem;
+min-width: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: -1rem;}
+
+.main_operation_bubble_icon{
+color: gray;
+font-size: 1.3rem;}
+    
