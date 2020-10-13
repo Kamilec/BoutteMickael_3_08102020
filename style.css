@@ -62,6 +62,10 @@ font-family: "roboto-regular", sans-serif;
 text-align: center;
 margin: auto;}
 
+a{
+color: black;
+text-decoration: none;}
+
 
 /* ****************** HEADER ******************** */
 .header_title{
@@ -128,4 +132,32 @@ margin: -1rem;}
 .main_operation_bubble_icon{
 color: gray;
 font-size: 1.3rem;}
-    
+
+
+/* ****************** MAIN-RESTAURANT ******************** */
+.main_restaurant{
+background-color: #F5F5F5;
+height: 85rem;
+padding-top: 1rem;}
+
+.main_restaurant_card{
+background-color: #fff;
+border-radius: 1.25rem;
+box-shadow: 0 1.4rem 1.2rem -1rem #0000002e;
+transition-duration: .1s;
+margin: 0.5rem;
+cursor: pointer;}
+
+.main_restaurant_figure_card{margin: 0rem;}
+
+.main_restaurant_card_img{
+height: 10rem;
+object-fit: cover;
+max-width: 100%;
+width: 100%;
+max-height: 100%;
+border-radius: 1rem 1rem 0 0;}
+
+.main_restaurant_figcaption_card{
+font-size: small;
+margin: .25rem .75rem 0 .75rem;}
