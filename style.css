@@ -185,8 +185,8 @@ a {
 .main_restaurant_card_new {
   background-color: #99E2D0;
   position: absolute;
-  color: #00897B;
-  margin: -10rem 0rem 0rem 14.5rem;
+  color: #229c75;
+  margin: -9.5rem 0rem 0rem 12.5rem;
   font-weight: bold;
   padding-top: 0.4rem;
   width: 5rem;
@@ -217,7 +217,7 @@ a {
 
 .main_restaurant_card_figure_figpcation_title {
   margin-bottom: -2rem;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .main_restautant_card_title {
@@ -227,7 +227,7 @@ a {
 
 .main_restaurant_card_icon_hearth {
   font-size: 2rem;
-  margin-left: 15rem;
+  margin-left: 14rem;
   color: gray;
 }
 
