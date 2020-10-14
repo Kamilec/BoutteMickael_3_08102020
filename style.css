@@ -167,6 +167,11 @@ a {
   padding-top: 3rem;
 }
 
+.main_restautant_title {
+  text-align: left;
+  margin-left: 1rem;
+}
+
 .main_restaurant_card {
   background-color: #fff;
   border-radius: 1.25rem;
@@ -195,7 +200,7 @@ a {
   justify-items: baseline;
   flex-direction: column;
   margin-left: 1rem;
-  margin-bottom: -6rem;
+  margin-bottom: -6.5rem;
   text-align: left;
 }
 
@@ -207,4 +212,50 @@ a {
 .main_restautant_card_title {
   margin-top: 2rem;
   margin-bottom: 4rem;
+}
+
+.main_restaurant_card_icon_hearth {
+  font-size: 2rem;
+  margin-left: 15rem;
+  color: gray;
+}
+
+
+/* ****************** FOOTER ******************** */
+.footer{
+  color: white;
+  background-color: #424242;
+  padding-top: 1rem;
+  text-align: left;
+  line-height: 0rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer_title {
+  font-style: italic;
+  font-family: 'shrikhand-regular';
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.footer_title_icon {
+  display: flex;
+  align-items: baseline;
+  margin-left: 1rem;
+}
+
+.footer_icon_title_icon {
+  padding-right: 1rem;
+}
+
+.footer_title_h3{
+  margin-left: 1rem;
 }
