@@ -182,6 +182,17 @@ a {
   cursor: pointer;
 }
 
+.main_restaurant_card_new {
+  background-color: #99E2D0;
+  position: absolute;
+  color: #00897B;
+  margin: -10rem 0rem 0rem 14.5rem;
+  font-weight: bold;
+  padding-top: 0.4rem;
+  width: 5rem;
+  height: 2rem;
+}
+
 .main_restaurant_figure_card {
   margin: 0rem;
 }
