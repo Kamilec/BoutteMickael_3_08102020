@@ -243,6 +243,11 @@ a {
   cursor: pointer;
 }
 
+.main_restaurant_icon_heart:hover{
+  color: #9356dc;
+  font-weight: bolder;
+}
+
 /* ****************** FOOTER ******************** */
 .footer {
   color: white;
