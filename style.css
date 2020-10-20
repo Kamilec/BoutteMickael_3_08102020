@@ -63,6 +63,42 @@
   font-style: normal;
 }
 
+/* ****************** PRELOADER ******************** */
+#body_preloader {
+  -webkit-animation: body_preloader 3s ease-out infinite both;
+	        animation: body_preloader 3s ease-out infinite both;
+}
+.body_preloader_img img{
+  height: 60rem;
+}
+
+@-webkit-keyframes body_preloader {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes body_preloader {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+
 /* ****************** PAGE D'ACCUEIL ******************** */
 * {
   box-sizing: border-box;
@@ -129,7 +165,6 @@ a {
 
 .main_operation_bubble {
   display: flex;
-  gap: 1.3rem;
   background-color: #f5f5f5;
   margin-left: 1rem;
   margin-bottom: 2rem;
@@ -146,6 +181,8 @@ a {
 .main_operation_bubble_icon {
   color: gray;
   font-size: 1.3rem;
+  margin-right: 1rem;
+  margin-left: 1.5rem;
 }
 
 .main_operation_bubble:hover {
@@ -184,6 +221,7 @@ a {
 
 .main_restaurant_card {
   background-color: #fff;
+  position: relative;
   border-radius: 1.25rem;
   box-shadow: 0 1.4rem 1.2rem -1rem #0000002e;
   transition-duration: 0.1s;
@@ -193,15 +231,14 @@ a {
 
 .main_restaurant_card_new {
   background-color: #99e2d0;
-  position: relative;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   color: #229c75;
-  margin: -2rem 0 -2rem -3rem;
   font-weight: bold;
   padding-top: 0.4rem;
   width: 5rem;
   height: 2rem;
-  right: -14rem;
-  bottom: 9rem;
 }
 
 .main_restaurant_figure_card {
@@ -238,14 +275,16 @@ a {
 
 .main_restaurant_icon_heart {
   font-size: 2rem;
+  position: absolute;
+  right: 1rem;
   margin-left: 12rem;
   color: gray;
   cursor: pointer;
 }
 
-.main_restaurant_icon_heart:hover{
-  color: #9356dc;
+.main_restaurant_icon_heart:hover {
   font-weight: bolder;
+  color: #9356dc;
 }
 
 /* ****************** FOOTER ******************** */
