@@ -569,7 +569,7 @@ a {
 }
 
 .main_menu_card:hover .fa-check {
-  margin: 2.5rem 2rem;
+  margin: 2.5rem 1.5rem;
   animation: fa-check 0.5s;
 }
 
@@ -589,10 +589,10 @@ a {
 
 @keyframes check_appear {
   0% {
-    margin-left: 110%;
+    margin-left: 100%;
   }
   100% {
-    margin-left: 90%;
+    margin-left: 100%;
   }
 }
 
@@ -601,10 +601,10 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin-right: 25px;
+  margin-right: 2.5rem;
 }
 
-.main_menu_card:hover .check_appear {
+.main_menu_card:hover .check_appear  {
   display: block;
   position: relative;
   height: 6rem;
@@ -619,14 +619,15 @@ span {
   background-color: white;
   border-radius: 50%;
   color: #99e2d0;
-  padding: .3rem;
+  padding: 0.3rem;
   position: relative;
   top: 1rem;
+  right: 1.5rem;
 }
 
 .main_menu_card:hover .main_menu_card_price {
   animation: main_menu_card_price 0.5s;
-  margin-right: 20%;
+  margin-right: 1rem;
 }
 
 @keyframes main_menu_card_price {
@@ -634,7 +635,7 @@ span {
     margin-right: 0%;
   }
   100% {
-    margin-right: 20%;
+    margin-right: 15%;
   }
 }
 
@@ -649,13 +650,12 @@ span {
 
 .main_menu_card_figure_figpcation_title {
   margin-bottom: -0.5rem;
-  padding-top: 0.5rem;
 }
 
 .main_menu_card_price {
   text-align: right;
-  margin-right: 1rem;
-  margin-top: -2rem;
+  margin-right: 1.5rem;
+  margin-top: -1.5rem;
   padding-bottom: 1rem;
   font-weight: bold;
 }
