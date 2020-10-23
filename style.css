@@ -569,7 +569,7 @@ a {
 }
 
 .main_menu_card:hover .fa-check {
-  margin: 2.5rem 1.5rem;
+  margin: 1.8rem 2.2rem;
   animation: fa-check 0.5s;
 }
 
@@ -596,23 +596,15 @@ a {
   }
 }
 
-span {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-right: 2.5rem;
-}
-
-.main_menu_card:hover .check_appear  {
+.main_menu_card:hover .check_appear {
   display: block;
   position: relative;
   height: 6rem;
   margin-top: -6rem;
-  margin-left: 90%;
-  width: 5rem;
+  margin-left: 83%;
+  width: 3rem;
   top: 1rem;
-  animation: check_appear 0.5s;
+  animation: check_appear 0.1s;
 }
 
 .fa-check {
@@ -625,9 +617,9 @@ span {
   right: 1.5rem;
 }
 
-.main_menu_card:hover .main_menu_card_price {
-  animation: main_menu_card_price 0.5s;
-  margin-right: 1rem;
+.main_menu_card:hover .main_menu_price {
+  animation: main_menu_price 0.5s;
+  margin-right: 3rem;
 }
 
 @keyframes main_menu_card_price {
@@ -652,12 +644,14 @@ span {
   margin-bottom: -0.5rem;
 }
 
-.main_menu_card_price {
-  text-align: right;
+.main_menu_overall{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_menu_price {
   margin-right: 1.5rem;
-  margin-top: -1.5rem;
-  padding-bottom: 1rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .main_menu_explore_btn {
