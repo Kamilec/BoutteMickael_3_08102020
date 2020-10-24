@@ -1,4 +1,4 @@
-@media screen and (min-width: 576px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   .main_operation {
     display: flex;
     flex-wrap: wrap;
@@ -29,8 +29,21 @@
     justify-content: center;
   }
 
+  .main_menu_full {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .footer {
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 630px) {
+  .main_menu_card:hover .main_menu_price {
+    animation: main_menu_price 0.5s;
+    margin-right: 3rem;
   }
 }
 
@@ -65,8 +78,24 @@
     justify-content: center;
   }
 
-  .footer {
+  .main_menu_full {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
+  }
+
+  .main_menu_entrees,
+  .main_menu_plats,
+  .main_menu_desserts {
+    width: 30%;
+  }
+
+  .main_menu_card:hover .main_menu_price {
+    animation: main_menu_price 0.5s;
+    margin-right: 6.5rem;
+  }
+
+  .footer {
+    align-items: center;
   }
 }

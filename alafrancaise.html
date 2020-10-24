@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
 </head>
 
 <body>
-    <!--NOM DU RESTAURANT-->
+    <!--NAME OF RESTAURANT-->
     <header class="header_alafrancaise">
         <div class="header_alafrancaise_title_and_arrow">
             <h1 class="header_menu_title">ohmyfood</h1><a href="accueil.html"><i
@@ -22,17 +23,18 @@
             alt="Plat d'un restaurant dit à la française">
     </header>
 
-    <!--NOM DE LA CARTE DU RESTAURANT-->
+    <!--NAME OF THE RESTAURANT MENU-->
     <main class="main">
         <section class="main_menu_principal">
 
-            <!--MENU ENTREES + PLATS + DESSERTS -->
+            <!--MENU STARTERS + DISHES + DESSERTS-->
             <div class="main_menu">
                 <h1 class="main_menu_title">À la française</h1>
-                <i class="far fa-heart main_menu_icon_heart"></i>
+                <i class="far fa-heart icon_heart_menus"></i>
             </div>
 
-            <!--ENTREES-->
+            <div class="main_menu_full">
+            <!--STARTERS-->
             <section class="main_menu_entrees">
                 <h2 class="main_menu_entree_title">ENTRÉES</h2>
 
@@ -83,7 +85,7 @@
                 </article>
             </section>
 
-            <!--PLATS-->
+            <!--DISHES-->
             <section class="main_menu_plats">
                 <h2 class="main_menu_entree_title">PLATS</h2>
 
@@ -183,22 +185,29 @@
                     </a>
                 </article>
             </section>
+        </div>
             <a href="#" class="main_menu_explore_btn">Commander</a>
         </section>
     </main>
 
-    <!--INFORMATIONS COMPLEMENTAIRES-->
-    <footer class="footer_menu">
+    <!--COMPLEMENTARY INFORMATIONS OF RESTAURANT-->
+    <footer class="footer">
         <h2 class="footer_title">ohmyfood</h2>
-        <div class="footer_title_icon">
-            <i class="fas fa-utensils footer_icon_title_icon"></i>
-            <h3 class="footer_title_propose">Proposer un restaurant</h3>
-        </div>
-        <div class="footer_title_icon">
-            <i class="fas fa-hands-helping footer_icon_title_icon"></i>
-            <h3 class="footer_title-propose">Devenir partenaire</h3>
-        </div>
-        <h3 class="footer_title_h3 footer_title-mentions">Mentions légales</h3>
+        <a href="#">
+            <div class="footer_title_icon">
+                <i class="fas fa-utensils footer_icon_title_icon"></i>
+                <h3 class="footer_title_propose">Proposer un restaurant</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="footer_title_icon">
+                <i class="fas fa-hands-helping footer_icon_title_icon"></i>
+                <h3 class="footer_title-propose">Devenir partenaire</h3>
+            </div>
+        </a>
+        <a href="#">
+            <h3 class="footer_title_h3 footer_title-mentions">Mentions légales</h3>
+        </a>
         <a href="mailto:ohmyfoods@gmail.com">
             <h3 class="footer_title_h3 footer_title-contact">Contact</h3>
         </a>

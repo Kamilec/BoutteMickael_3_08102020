@@ -364,9 +364,9 @@ p.main_menu_card_title {
 }
 
 .main_restaurant_icon_heart {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: absolute;
-  right: 1rem;
+  right: 0.5rem;
   margin-left: 12rem;
   color: gray;
   cursor: pointer;
@@ -423,7 +423,8 @@ p.main_menu_card_title {
   margin-left: 1rem;
 }
 
-/* ****************** MENU A LA FRANCAISE ******************** */
+
+/* ****************** ALL MENUS RESTAURANT ******************** */
 /* ****************** HEADER ******************** */
 .header_alafrancaise_title_and_arrow {
   display: flex;
@@ -432,13 +433,34 @@ p.main_menu_card_title {
   flex-direction: row-reverse;
 }
 
+.icon_heart_menus {
+  top: 1rem;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1rem;
+  margin-left: 12rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.icon_heart_menus:hover {
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  z-index: 0;
+  transform: scale(1.3);
+  transition: opacity 400ms, transform 300ms 100ms;
+}
+
 .header_menu_title {
   font-family: "shrikhand-regular", cursive, sans-serif;
   margin-right: 4rem;
 }
 
 .header_menu_arrow {
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .main_menu_card_img {
@@ -477,13 +499,7 @@ p.main_menu_card_title {
   cursor: pointer;
 }
 
-.main_menu_plats,
-.main_menu_entrees {
-  padding-bottom: 2rem;
-  font-size: 0.75rem;
-}
-
-.main_menu_desserts {
+.main_menu_full {
   padding-bottom: 4rem;
   font-size: 0.75rem;
 }
@@ -603,7 +619,7 @@ p.main_menu_card_title {
   height: 6rem;
   margin-top: -6rem;
   margin-left: 83%;
-  width: 3rem;
+  width: 6rem;
   top: 1rem;
   animation: check_appear 0.1s;
 }
@@ -620,7 +636,7 @@ p.main_menu_card_title {
 
 .main_menu_card:hover .main_menu_price {
   animation: main_menu_price 0.5s;
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 
 @keyframes main_menu_card_price {
@@ -662,77 +678,4 @@ p.main_menu_card_title {
   text-decoration: none;
   padding: 1.1rem 4rem;
   background: linear-gradient(#ff79da, #9356dc);
-}
-/* ****************** FOOTER-MENU ******************** */
-.footer_menu {
-  color: white;
-  background-color: #424242;
-  padding-top: 1rem;
-  text-align: left;
-  line-height: 0rem;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-/* ****************** MENU LE DELICE DES SENS ******************** */
-/* ****************** MAIN-MENU ******************** */
-.main_menu_icon_other_menu {
-  margin-left: 2rem;
-}
-
-.main_menu_icon_other_menu:hover {
-  font-weight: bolder;
-  background: -webkit-linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 1;
-  z-index: 0;
-  transform: scale(1.3);
-  transition: opacity 400ms, transform 300ms 100ms;
-}
-
-/* ****************** MENU LA NOTE ENCHANTEE ******************** */
-/* ****************** MAIN-MENU ******************** */
-.main_menu_other {
-  height: 76rem;
-}
-
-.main_menu_icon_other {
-  font-size: 1.5rem;
-  position: absolute;
-  right: 1rem;
-  margin-left: 11rem;
-  color: gray;
-  cursor: pointer;
-  top: 1rem;
-}
-
-.main_menu_icon_other:hover {
-  font-weight: bolder;
-  background: -webkit-linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 1;
-  z-index: 0;
-  transform: scale(1.3);
-  transition: opacity 400ms, transform 300ms 100ms;
-}
-
-/* ****************** FOOTER ******************** */
-.footer_menu_other {
-  bottom: -70rem;
-}
-
-/* ****************** MENU A LA FRANCAISE ******************** */
-/* ****************** MAIN-MENU ******************** */
-.main_menu_icon_heart:hover {
-  font-weight: bolder;
-  background: -webkit-linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 1;
-  z-index: 0;
-  transform: scale(1.3);
-  transition: opacity 400ms, transform 300ms 100ms;
 }

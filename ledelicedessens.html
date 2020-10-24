@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
 </head>
 
 <body>
-    <!--NOM DU RESTAURANT-->
+    <!--NAME OF RESTAURANT-->
     <header class="header_alafrancaise">
         <div class="header_alafrancaise_title_and_arrow">
             <h1 class="header_menu_title">ohmyfood</h1><a href="accueil.html"><i
@@ -22,182 +23,193 @@
             alt="Plat d'un restaurant Le délice du sens">
     </header>
 
-    <!--NOM DE LA CARTE DU RESTAURANT-->
+    <!--NAME OF THE RESTAURANT MENU-->
     <main class="main">
         <section class="main_menu_principal">
 
-            <!--MENU ENTREES + PLATS + DESSERTS -->
+            <!--MENU STARTERS + DISHES + DESSERTS-->
             <div class="main_menu">
                 <h1 class="main_menu_title">Le délice des sens</h1>
-                <i class="far fa-heart main_menu_icon_heart main_menu_icon_other_menu"></i>
+                <i class="far fa-heart icon_heart_menus"></i>
             </div>
 
-            <!--ENTREES-->
-            <section class="main_menu_entrees">
-                <h2 class="main_menu_entree_title">ENTRÉES</h2>
+            <div class="main_menu_full">
+                <!--STARTERS-->
+                <section class="main_menu_entrees">
+                    <h2 class="main_menu_entree_title">ENTRÉES</h2>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Tartare de thon</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Assaisonné au yuzu</p>
-                                    <p class="main_menu_price">25€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Tartare de thon</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Assaisonné au yuzu</p>
+                                        <p class="main_menu_price">25€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Bouchée de homard croustillant</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Et sa farandole de petits légumes</p>
-                                    <p class="main_menu_price">35€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Bouchée de homard croustillant
+                                    </h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Et sa farandole de petits légumes</p>
+                                        <p class="main_menu_price">35€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Velouté de cèpes</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Aux truffes</p>
-                                    <p class="main_menu_price">20€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-            </section>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Velouté de cèpes</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Aux truffes</p>
+                                        <p class="main_menu_price">20€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </section>
 
-            <!--PLATS-->
-            <section class="main_menu_plats">
-                <h2 class="main_menu_entree_title">PLATS</h2>
+                <!--DISHES-->
+                <section class="main_menu_plats">
+                    <h2 class="main_menu_entree_title">PLATS</h2>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Poulet rôti aux herbes de provence</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Et sa crème de truffe</p>
-                                    <p class="main_menu_price">40€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Poulet rôti aux herbes de
+                                        provence
+                                    </h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Et sa crème de truffe</p>
+                                        <p class="main_menu_price">40€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Langouste rôtie</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Et ses légumes de saison</p>
-                                    <p class="main_menu_price">35€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Langouste rôtie</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Et ses légumes de saison</p>
+                                        <p class="main_menu_price">35€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Côte de boeuf angus</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Et sa purée de panais</p>
-                                    <p class="main_menu_price">44€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-            </section>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Côte de boeuf angus</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Et sa purée de panais</p>
+                                        <p class="main_menu_price">44€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </section>
 
-            <!--DESSERTS-->
-            <section class="main_menu_desserts">
-                <h2 class="main_menu_entree_title">DESSERTS</h2>
+                <!--DESSERTS-->
+                <section class="main_menu_desserts">
+                    <h2 class="main_menu_entree_title">DESSERTS</h2>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Farandole de desserts</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Du chef</p>
-                                    <p class="main_menu_price">18€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Farandole de desserts</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Du chef</p>
+                                        <p class="main_menu_price">18€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Crème brulée</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">Revisitée</p>
-                                    <p class="main_menu_price">22€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Crème brulée</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">Revisitée</p>
+                                        <p class="main_menu_price">22€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="main_menu_card">
-                    <a href="#">
-                        <figure class="main_menu_figure_card">
-                            <figcaption class="main_menu_figcaption_card">
-                                <h3 class="main_menu_card_figure_figpcation_title">Tiramisu</h3>
-                                <div class="main_menu_overall">
-                                    <p class="main_menu_card_title">À la noisette</p>
-                                    <p class="main_menu_price">23€</p>
-                                </div>
-                                <span class="check_appear"><i class="fas fa-check"></i></span>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-            </section>
+                    <article class="main_menu_card">
+                        <a href="#">
+                            <figure class="main_menu_figure_card">
+                                <figcaption class="main_menu_figcaption_card">
+                                    <h3 class="main_menu_card_figure_figpcation_title">Tiramisu</h3>
+                                    <div class="main_menu_overall">
+                                        <p class="main_menu_card_title">À la noisette</p>
+                                        <p class="main_menu_price">23€</p>
+                                    </div>
+                                    <span class="check_appear"><i class="fas fa-check"></i></span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </section>
+            </div>
             <a href="#" class="main_menu_explore_btn">Commander</a>
         </section>
     </main>
 
-    <!--INFORMATIONS COMPLEMENTAIRES-->
-    <footer class="footer_menu">
+    <!--COMPLEMENTARY INFORMATIONS OF RESTAURANT-->
+    <footer class="footer">
         <h2 class="footer_title">ohmyfood</h2>
-        <div class="footer_title_icon">
-            <i class="fas fa-utensils footer_icon_title_icon"></i>
-            <h3 class="footer_title_propose">Proposer un restaurant</h3>
-        </div>
-        <div class="footer_title_icon">
-            <i class="fas fa-hands-helping footer_icon_title_icon"></i>
-            <h3 class="footer_title-propose">Devenir partenaire</h3>
-        </div>
-        <h3 class="footer_title_h3 footer_title-mentions">Mentions légales</h3>
+        <a href="#">
+            <div class="footer_title_icon">
+                <i class="fas fa-utensils footer_icon_title_icon"></i>
+                <h3 class="footer_title_propose">Proposer un restaurant</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="footer_title_icon">
+                <i class="fas fa-hands-helping footer_icon_title_icon"></i>
+                <h3 class="footer_title-propose">Devenir partenaire</h3>
+            </div>
+        </a>
+        <a href="#">
+            <h3 class="footer_title_h3 footer_title-mentions">Mentions légales</h3>
+        </a>
         <a href="mailto:ohmyfoods@gmail.com">
             <h3 class="footer_title_h3 footer_title-contact">Contact</h3>
         </a>
