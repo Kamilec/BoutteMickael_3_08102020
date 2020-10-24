@@ -1,0 +1,72 @@
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+  .main_operation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main_restautant_title {
+    display: contents;
+  }
+
+  .main_operation_bubble {
+    width: 17rem;
+  }
+
+  .main_restaurant_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main_restaurant_card {
+    width: 43%;
+  }
+
+  .main_operation_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .main_operation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main_restautant_title {
+    display: contents;
+  }
+
+  .main_operation_bubble {
+    width: 17rem;
+  }
+
+  .main_restaurant_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main_restaurant_card {
+    width: 43%;
+  }
+
+  .main_operation_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}

@@ -262,10 +262,6 @@ a {
   cursor: pointer;
 }
 
-.main_operation_bubble_title {
-  margin-left: -0.5rem;
-}
-
 .main_operation_bubble_icon {
   color: gray;
   font-size: 1.3rem;
@@ -428,7 +424,6 @@ p.main_menu_card_title_and_price {
 }
 
 /* ****************** MENU A LA FRANCAISE ******************** */
-
 /* ****************** HEADER ******************** */
 .header_alafrancaise_title_and_arrow {
   display: flex;
