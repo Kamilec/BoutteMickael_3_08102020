@@ -292,7 +292,7 @@ a {
 }
 
 /* ****************** MAIN-RESTAURANT ******************** */
-p.main_menu_card_title_and_price {
+p.main_menu_card_title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -699,7 +699,13 @@ p.main_menu_card_title_and_price {
 }
 
 .main_menu_icon_other {
-  margin-left: 2rem;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1rem;
+  margin-left: 11rem;
+  color: gray;
+  cursor: pointer;
+  top: 1rem;
 }
 
 .main_menu_icon_other:hover {
