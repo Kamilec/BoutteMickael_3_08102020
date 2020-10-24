@@ -364,8 +364,8 @@ p.main_menu_card_title {
 }
 
 .main_restaurant_icon_heart {
-  font-size: 1.5rem;
   position: absolute;
+  font-size: 1.5rem;
   right: 0.5rem;
   margin-left: 12rem;
   color: gray;
@@ -434,9 +434,9 @@ p.main_menu_card_title {
 }
 
 .icon_heart_menus {
-  top: 1rem;
-  font-size: 1.5rem;
   position: absolute;
+  font-size: 1.5rem;
+  top: 1rem;
   right: 1rem;
   margin-left: 12rem;
   color: gray;
