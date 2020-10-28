@@ -1,3 +1,10 @@
+@media screen and (min-width: 400px) and (max-width: 580px) {
+  .main_menu_card:hover .main_menu_price {
+    animation: main_menu_price 0.5s;
+    margin-right: 6rem;
+  }
+}
+
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .main_operation {
     display: flex;
@@ -46,10 +53,10 @@
   }
 }
 
-@media screen and (min-width: 570px) and (max-width: 630px) {
+@media screen and (min-width: 570px) and (max-width: 1199px) {
   .main_menu_card:hover .main_menu_price {
     animation: main_menu_price 0.5s;
-    margin-right: 3rem;
+    margin-right: 6rem;
   }
 }
 

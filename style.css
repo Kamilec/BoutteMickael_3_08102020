@@ -638,7 +638,7 @@ p.main_menu_card_title {
 
 .main_menu_card:hover .main_menu_price {
   animation: main_menu_price 0.5s;
-  margin-right: 5rem;
+  margin-right: 4rem;
 }
 
 @keyframes main_menu_card_price {
