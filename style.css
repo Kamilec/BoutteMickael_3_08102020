@@ -180,6 +180,7 @@ a {
   border-radius: 2rem;
   padding: 1.1rem 2rem;
   background: linear-gradient(#ff79da, #9356dc);
+  cursor: pointer;
 }
 
 .main_explore_btn:hover {
@@ -371,7 +372,6 @@ p.main_menu_card_title {
   margin-left: 1rem;
 }
 
-
 /* ****************** ALL MENUS RESTAURANT ******************** */
 /* ****************** HEADER ******************** */
 .header_alafrancaise_title_and_arrow {
@@ -418,7 +418,6 @@ p.main_menu_card_title {
   width: 100%;
   max-height: 100%;
 }
-
 
 /* ****************** MAIN-MENU ******************** */
 .main {
@@ -513,10 +512,10 @@ p.main_menu_card_title {
   transition-duration: 0.1s;
   margin: 0.5rem;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .main_menu_card:hover .fa-check {
-  margin: 1.8rem 2.2rem;
   animation: fa-check 0.5s;
 }
 
@@ -535,14 +534,12 @@ p.main_menu_card_title {
 }
 
 .main_menu_card:hover .check_appear {
-  display: block;
-  position: relative;
-  height: 6rem;
-  margin-top: -6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  margin-top: -4rem;
   margin-left: 83%;
-  width: 6rem;
-  top: 1rem;
-  animation: check_appear 0.1s;
 }
 
 .fa-check {
@@ -550,27 +547,15 @@ p.main_menu_card_title {
   border-radius: 50%;
   color: #99e2d0;
   padding: 0.3rem;
-  position: relative;
-  top: 1rem;
-  right: 1.5rem;
 }
 
 .main_menu_card:hover .main_menu_price {
-  animation: main_menu_price 0.5s;
-  margin-right: 3.8rem;
-}
-
-@keyframes main_menu_price {
-  0% {
-    margin-right: 0%;
-  }
-  100% {
-    margin-right: 25%;
-  }
+  margin-right: 4rem;
 }
 
 .main_menu_figure_card {
   margin: 0;
+  height: 3rem;
 }
 
 .main_menu_figcaption_card {
@@ -583,6 +568,10 @@ p.main_menu_card_title {
 }
 
 .main_menu_overall {
+  flex-grow: 1;
+}
+
+.main_menu_price_title {
   display: flex;
   justify-content: space-between;
 }
@@ -599,4 +588,5 @@ p.main_menu_card_title {
   text-decoration: none;
   padding: 1.1rem 4rem;
   background: linear-gradient(#ff79da, #9356dc);
+  cursor: pointer;
 }
