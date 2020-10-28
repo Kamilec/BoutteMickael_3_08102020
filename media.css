@@ -23,6 +23,12 @@
     width: 43%;
   }
 
+  .main_menu_entrees,
+  .main_menu_plats,
+  .main_menu_desserts {
+    width: 45%;
+  }
+
   .main_operation_title {
     width: 100%;
     display: flex;
@@ -47,7 +53,8 @@
   }
 }
 
-@media screen and (min-width: 1201px) {
+
+@media screen and (min-width: 1200px) {
   .main_operation {
     display: flex;
     flex-wrap: wrap;
