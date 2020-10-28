@@ -534,15 +534,6 @@ p.main_menu_card_title {
   background-color: #99e2d0;
 }
 
-@keyframes check_appear {
-  0% {
-    margin-left: 100%;
-  }
-  100% {
-    margin-left: 100%;
-  }
-}
-
 .main_menu_card:hover .check_appear {
   display: block;
   position: relative;

@@ -1,7 +1,7 @@
 @media screen and (min-width: 400px) and (max-width: 580px) {
   .main_menu_card:hover .main_menu_price {
     animation: main_menu_price 0.5s;
-    margin-right: 4.5rem;
+    margin-right: 5rem;
   }
 }
 
@@ -56,11 +56,11 @@
 @media screen and (min-width: 570px) and (max-width: 1199px) {
   .main_menu_card:hover .main_menu_price {
     animation: main_menu_price 0.5s;
-    margin-right: 4.8rem;
+    margin-right: 5rem;
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1439px) {
+@media screen and (min-width: 1402px) and (max-width: 1439px) {
   .main_operation {
     display: flex;
     flex-wrap: wrap;
@@ -108,16 +108,12 @@
     margin-right: 5rem;
   }
 
-  .main_menu_card:hover .check_appear {
-    margin-left: 90%;
-  }
-
   .footer {
     align-items: center;
   }
 }
 
-@media screen and (min-width: 1440px) and (max-width:2500px) {
+@media screen and (min-width: 1440px) and (max-width: 2500px) {
   .main_menu_card:hover .main_menu_price {
     animation: main_menu_price 0.5s;
     margin-right: 5rem;
