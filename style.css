@@ -590,3 +590,8 @@ p.main_menu_card_title {
   background: linear-gradient(#ff79da, #9356dc);
   cursor: pointer;
 }
+
+.main_menu_explore_btn:hover {
+  text-shadow: 0 0 0.5rem whitesmoke;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.31);
+}
