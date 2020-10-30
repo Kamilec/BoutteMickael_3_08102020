@@ -108,8 +108,14 @@
   }
 }
 
-@media screen and (min-width: 1270px) {
+@media screen and (min-width: 1270px) and (max-width: 1600px) {
   .main_menu_card:hover .main_menu_price {
     margin-right: 5rem;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .main_menu_card:hover .main_menu_price {
+    margin-right: 8rem;
   }
 }
